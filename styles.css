@@ -24,7 +24,7 @@ body{
 }
 /*Estilo de los campos de texto y contraseña*/
 .login-container input {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
@@ -82,6 +82,38 @@ body{
 .microsoft-btn:hover{
     background-color: #1a1a1a;
 }
+/*Mantener el titulo fijo arriba */
+.titulo-fijo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+.social-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+section{
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+#sucursales {
+    background: #e9ecef;
+}
+#Historia {
+    background: #e9ecef;
+}
+
+
+
+
 
 
 
