@@ -20,6 +20,7 @@ function inicioSesion() {
 
         } else if (contrasena != "1234") {
             document.getElementById("errorContra").textContent = "Contraseña incorrecta";
+            // Seleccionar el campo de contraseña
             document.getElementById("password").select();
             return false; // Evitar el envío del formulario
 
