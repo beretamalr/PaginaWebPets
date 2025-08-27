@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio de sesion</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="funciones.js"></script>
 
 <body>
         <div class="login-container">
             <h1>Inicio de sesión</h1>
-            <form action="pets.html" method="get">
-            <input type="text" name="username" placeholder="Nombre de usuario" >
-            <input type="password" name="password" placeholder="Contraseña" >
+            <form action="pets.html" method="get" onsubmit="return inicioSesion()">
+            <input type="text" id="username" name="username" placeholder="Nombre de usuario">
+            <!-- A traves del id se indica cuando mostrar el error-->
+            <div style="font-family: 'Courier New', Courier, monospace; color: red;" id="errorUser"></div>
+            <input type="password" id="password" name="password" placeholder="Contraseña">
+            <div style="font-family: 'Courier New', Courier, monospace; color: red;" id="errorContra" ></div>
             <button type="submit">Iniciar Sesión</button>
+            <div style="font-family: 'Courier New', Courier, monospace; color: red;" id="errorDos"></div>
             </form>
         <div class="social-login">
             <p>O inicia sesión con: </p>
