@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/*Estilo del contenedor del formulario de inicio de sesion*/
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 10px rgba( 0.1 , 0.1 , 0.1 , 0.1 );
+    width: 300px;
+    text-align: center;
+}
+/*Estilo del titulo "Inicio de sesion"*/
+.login-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+/*Estilo de los campos de texto y contraseña*/
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+/*Estilo del boton de iniciar sesion*/
+.login-container button {
+    width: 40%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*Efecto al pasar el mouse sobre el boton*/
+.login-container button:hover {
+    background-color: #0056b3;
+}
+  
+.social-login{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.google-btn{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #db4437;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.microsoft-btn{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px 0;
+    background-color: #2F2F2F;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.google-btn:hover{
+    background-color: #c23321;
+}
+.microsoft-btn:hover{
+    background-color: #1a1a1a;
+}
+
+
+
+
+
