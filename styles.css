@@ -1,12 +1,5 @@
-body{
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
+
+
 /*Estilo del contenedor del formulario de inicio de sesion*/
 .login-container {
     background-color: #fff;
@@ -47,7 +40,7 @@ body{
 .login-container button:hover {
     background-color: #0056b3;
 }
-  
+/*  
 .social-login{
     margin-top: 20px;
     text-align: center;
@@ -75,40 +68,55 @@ body{
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-}
-.google-btn:hover{
+}*/
+/*.google-btn:hover{
     background-color: #c23321;
 }
 .microsoft-btn:hover{
     background-color: #1a1a1a;
-}
-/*Mantener el titulo fijo arriba */
-.titulo-fijo{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    padding: 10px 0;
 }
 .social-login{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}*/
+.titulo{
+    text-align: center;
 }
-
-section{
-    margin-bottom: 30px;
-    padding: 20px;
+.historia-veterinaria{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 24px 16px;
     background: #f9f9f9;
     border-radius: 8px;
 }
-#sucursales {
-    background: #e9ecef;
+.sucursales{
+    text-align: justify;
+    margin: 20px;
 }
-#Historia {
-    background: #e9ecef;
+.comercio{
+    text-align: center;
+    margin: 20px;
+}
+.botones-Comercio{
+    color:#fff;
+    border: none;
+    border-radius: 25px;
+    padding: 12 20px;
+    
+    
+}
+body{
+    text-align: center;
+}
+img{
+    width: 220px;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
 }
 
 
@@ -119,3 +127,15 @@ section{
 
 
 
+
+
+
+
+/*Estilo del footer Fijo*/
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px 0;
+}

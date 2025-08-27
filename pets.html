@@ -5,12 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pets</title>
         <link rel="stylesheet" href="styles.css">
-        <h1 class='titulo-fijo'>Bienvenido a Veterinaria Pets</h1>
-
     </head>
     <body>
-        <div class="contenedor-secciones">
-            <section id = "Historia">
+        <header>
+            <h1 class="titulo">Bienvenido a Veterinaria Pets</h1>
+        </header>
+            <section class="historia-veterinaria">
                 <h2>Nuestra Historia</h2>
                 <p>La Veterinaria Pets nació del amor incondicional por los 
                     animales y el deseo de brindarles una atención médica de
@@ -23,19 +23,23 @@
                 <h2>Sucursales </h2>
                 <ul>
                     <li>Sucursal 1: Av. Siempre Viva 123, Santiago</li>
+                    <img src="/img/sucursal1.jpeg" alt="Imagen de la Sucursal 1" class="mi-elemento">
                     <li>Sucursal 2: Calle Falsa 456, Santiago</li>
+                    <img src="/img/sucursal2.jpeg" alt="Imagen de la Sucursal 2" class="mi-elemento">
                     <li>Sucursal 3: Av. Libertador 789, Santiago</li>
+                    <img src="/img/sucursal3.jpeg" alt="Imagen de la Sucursal 3" class="mi-elemento">
                 </ul>
             </section>
             <section id="Comercio">
                 <h2>Comercio</h2>
-                <div class = "galeria-productos">
-                    <div class="producto-card">
-                        <img src="/img/producto1.jpg" alt="Producto 1">
-                        <h3>Alimento para perros</h3>
-                    </div>
-                </div>
+                <section class= "botones-Comercio">
+                    <a href="productos.html"><button>Productos</button></a>
+                    <a href="servicios.html"><button>Servicios</button></a>
+                </section>
             </section>
         </div>
     </body>
+    <footer>
+        <p>Veterinaria Pets &copy; 2025</p>
+    </footer>
 </html>
