@@ -18,13 +18,13 @@ function inicioSesion() {
             document.getElementById("errorContra").textContent = "Por favor, ingrese su contraseña";
             return false; // Evitar el envío del formulario
 
-        } else if (contrasena != "1234") {
+        } else if (usuario == "admin" && contrasena != "1234") {
             document.getElementById("errorContra").textContent = "Contraseña incorrecta";
             // Seleccionar el campo de contraseña
             document.getElementById("password").select();
             return false; // Evitar el envío del formulario
 
-        } else if (usuario != "admin") {
+        } else if (usuario != "admin" && contrasena == "1234") {
             document.getElementById("errorUser").textContent = "Usuario incorrecto";
             document.getElementById("username").select();
             return false; // Evitar el envío del formulario
